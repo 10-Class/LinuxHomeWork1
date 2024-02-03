@@ -1,0 +1,41 @@
+   0 mkdir /home/animals
+   1 mkdir /home/animals/dogs /home/animals/cats /home/animals/fish
+   2 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt
+   3 mkdir /home/planets
+   4 mjdir /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter
+   5 mkdir /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter
+   6 ls /opt
+   7 mv /opt/Mercury /home/planets
+   8 mv /opt/Venus /home/planets
+   9 mv /opt/Mars /home/planets
+  10 mv /opt/Jupiter /home/planets
+  11 ls /opt
+  12 ls /home/animals
+  13 ls /home/planets
+  14 history
+  15 mkdir  /tmp/adam
+  16 ls /tmp
+  17 rm -rf /tmp/adam
+  18 ls /tmp
+  19 touch  /tmp/adam.txt
+  20 ls /tmp
+  21 cp /tmp/adam.txt /home/humans
+  22 ls /home
+  23 ls /humans
+  24 ls /home/humans
+  25 rm -rf /home/humans
+  26 ls /home
+  27 cp -r /tmp/adam.txt /home/humans
+  28 ls /home
+  29 rm -rf /home/humans
+  30 mkdir /home/humans
+  31 cp /tmp/adam.txt /home/humans
+  32 ls /home
+  33 ls /home/humans
+  34 touch /tmp/evA.txt
+  35 mv /tmp/evA.txt /opt/eve.txt
+  36 ls /opt
+  37 mv /opt/eve.txt /home/humans
+  38 ls /home/humans
+  39 history
+  40 history > historyHomeWork1.txt
